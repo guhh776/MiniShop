@@ -39,8 +39,8 @@ sealed class Result<out T> {
 
 object SupabaseRepository {
 
-    private const val BASE_URL   = "https://nkfdhrhqzwzziiuszuxf.supabase.co/rest/v1"
-    private const val ANON_KEY   = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5rZmRocmhxend6emlpdXN6dXhmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ5MzEwOTEsImV4cCI6MjExMDUwNzA5MX0.j9PUljQLN5CoYsdJovEIKOp1Z7Xm0v2O1lhXBHxFf80"
+    private const val BASE_URL   = "https://wxtxswmjnirtgxdamumh.supabase.co/rest/v1"
+    private const val ANON_KEY   = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind4dHhzd21qbmlydGd4ZGFtdW1oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUxMDUxMTUsImV4cCI6MjExMDY4MTExNX0.VrialQ3JqHDw68H5sxnQwVc7sXD134J0nbePc7e_zh8"
     private val JSON             = "application/json".toMediaType()
     private val gson             = Gson()
 
